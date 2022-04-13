@@ -1,7 +1,7 @@
 FROM golang:1.18-alpine as builder
 WORKDIR /app
 COPY . .
-RUN apk update && apk add make
+RUN apk update && apk add make git
 RUN make build
 
 FROM alpine:3.15
