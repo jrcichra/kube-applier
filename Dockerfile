@@ -1,10 +1,10 @@
-FROM golang:1.18-alpine3.15 as builder
+FROM golang:1.18-alpine as builder
 WORKDIR /app
 COPY . .
 RUN apk add make
 RUN make build
 
-FROM alpine:3.15
+FROM alpine:edge
 WORKDIR /app/
 ADD templates/* /templates/
 ADD static/ /static/
