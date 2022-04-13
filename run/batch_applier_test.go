@@ -2,10 +2,11 @@ package run
 
 import (
 	"fmt"
-	"github.com/box/kube-applier/kube"
-	"github.com/golang/mock/gomock"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/golang/mock/gomock"
+	"github.com/jrcichra/kube-applier/kube"
+	"github.com/stretchr/testify/assert"
 )
 
 type batchTestCase struct {

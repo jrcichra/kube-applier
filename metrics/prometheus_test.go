@@ -2,12 +2,13 @@ package metrics
 
 import (
 	"fmt"
-	"github.com/box/kube-applier/run"
-	"github.com/stretchr/testify/assert"
 	"net/http"
 	"net/http/httptest"
 	"regexp"
 	"testing"
+
+	"github.com/jrcichra/kube-applier/run"
+	"github.com/stretchr/testify/assert"
 )
 
 type testCase struct {

@@ -5,13 +5,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/box/kube-applier/applylist"
-	"github.com/box/kube-applier/git"
-	"github.com/box/kube-applier/kube"
-	"github.com/box/kube-applier/metrics"
-	"github.com/box/kube-applier/run"
-	"github.com/box/kube-applier/sysutil"
-	"github.com/box/kube-applier/webserver"
+	"github.com/jrcichra/kube-applier/applylist"
+	"github.com/jrcichra/kube-applier/git"
+	"github.com/jrcichra/kube-applier/kube"
+	"github.com/jrcichra/kube-applier/metrics"
+	"github.com/jrcichra/kube-applier/run"
+	"github.com/jrcichra/kube-applier/sysutil"
+	"github.com/jrcichra/kube-applier/webserver"
 )
 
 const (

@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/box/kube-applier/sysutil"
+	"github.com/jrcichra/kube-applier/sysutil"
 )
 
 const (

@@ -2,11 +2,12 @@ package run
 
 import (
 	"fmt"
-	"github.com/box/kube-applier/git"
-	"github.com/golang/mock/gomock"
-	"github.com/stretchr/testify/assert"
 	"testing"
 	"time"
+
+	"github.com/golang/mock/gomock"
+	"github.com/jrcichra/kube-applier/git"
+	"github.com/stretchr/testify/assert"
 )
 
 // TestSchedulerPoll tests the poll() function, which checks the repo and queues a new run if there are new commits.

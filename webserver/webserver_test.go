@@ -1,14 +1,15 @@
 package webserver
 
 import (
-	"github.com/box/kube-applier/sysutil"
-	"github.com/golang/mock/gomock"
-	"github.com/stretchr/testify/assert"
 	"html/template"
 	"net/http"
 	"net/http/httptest"
 	"testing"
 	"time"
+
+	"github.com/golang/mock/gomock"
+	"github.com/jrcichra/kube-applier/sysutil"
+	"github.com/stretchr/testify/assert"
 )
 
 const (

@@ -2,9 +2,10 @@ package git
 
 import (
 	"fmt"
-	"github.com/box/kube-applier/applylist"
 	"os/exec"
 	"strings"
+
+	"github.com/jrcichra/kube-applier/applylist"
 )
 
 // GitUtilInterface allows for mocking out the functionality of GitUtil when testing the full process of an apply run.

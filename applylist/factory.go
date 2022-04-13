@@ -1,9 +1,10 @@
 package applylist
 
 import (
-	"github.com/box/kube-applier/sysutil"
 	"path/filepath"
 	"sort"
+
+	"github.com/jrcichra/kube-applier/sysutil"
 )
 
 // FactoryInterface allows for mocking out the functionality of Factory when testing the full process of an apply run.

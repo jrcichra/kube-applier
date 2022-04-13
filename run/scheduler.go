@@ -1,9 +1,10 @@
 package run
 
 import (
-	"github.com/box/kube-applier/git"
 	"log"
 	"time"
+
+	"github.com/jrcichra/kube-applier/git"
 )
 
 // Scheduler handles queueing apply runs at a given time interval and upon every new Git commit.

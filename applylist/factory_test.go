@@ -2,10 +2,11 @@ package applylist
 
 import (
 	"fmt"
-	"github.com/box/kube-applier/sysutil"
-	"github.com/golang/mock/gomock"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/golang/mock/gomock"
+	"github.com/jrcichra/kube-applier/sysutil"
+	"github.com/stretchr/testify/assert"
 )
 
 type testCase struct {
