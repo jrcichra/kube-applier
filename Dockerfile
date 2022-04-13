@@ -10,4 +10,5 @@ ADD templates/* /templates/
 ADD static/ /static/
 RUN apk update && apk add git
 RUN apk add kubectl --repository=http://dl-cdn.alpinelinux.org/alpine/edge/testing/
-COPY --from=builder /app/kube-applier /kube-applier
+COPY --from=builder /app/kube-applier /app/kube-applier
+ENTRYPOINT [ "/app/kube-applier" ]
