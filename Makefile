@@ -1,6 +1,6 @@
 all: build
 
-ENVVAR = GOOS=linux GOARCH=amd64 CGO_ENABLED=0
+ENVVAR = GOOS=linux CGO_ENABLED=0
 
 build: clean
 	$(ENVVAR) go build -o kube-applier
