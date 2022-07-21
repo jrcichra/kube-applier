@@ -6,8 +6,8 @@ RUN make build
 
 FROM alpine:3.16.1
 WORKDIR /app/
-ADD templates/* /templates/
-ADD static/ /static/
+ADD templates/* /app/templates/
+ADD static/ /app/static/
 RUN apk update && apk add git
 RUN apk add kubectl --repository=http://dl-cdn.alpinelinux.org/alpine/edge/testing/
 COPY --from=builder /app/kube-applier /app/kube-applier
