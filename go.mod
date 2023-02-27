@@ -5,7 +5,7 @@ go 1.18
 require (
 	github.com/golang/mock v1.6.0
 	github.com/prometheus/client_golang v1.14.0
-	github.com/stretchr/testify v1.8.1
+	github.com/stretchr/testify v1.8.2
 )
 
 require (
