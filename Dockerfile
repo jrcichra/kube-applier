@@ -4,7 +4,7 @@ COPY . .
 RUN apk update && apk add make git
 RUN make build
 
-FROM alpine:3.20.1
+FROM alpine:3.20.2
 WORKDIR /app/
 ADD templates/* /templates/
 ADD static/ /static/
